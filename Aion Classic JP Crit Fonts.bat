@@ -13,7 +13,7 @@ ECHO Aion directory found: %AIONDIR%
 
 if exist "%AIONDIR%\L10N\enu\textures\ui\hit_number.pak" (
 	ren "%AIONDIR%\L10N\enu\textures\ui\hit_number.pak" hit_number.pak.JP
-	if errorlevel 1 goto erroSD1
+	if errorlevel 1 goto errorSD
 	acho "-------------- JP crit/block/parry fonts REMOVED. --------------"
 	endlocal
 	pause
@@ -21,10 +21,10 @@ if exist "%AIONDIR%\L10N\enu\textures\ui\hit_number.pak" (
 ) else (
 	if exist "%AIONDIR%\L10N\enu\textures\ui\hit_number.pak.JP" (
 		ren "%AIONDIR%\L10N\enu\textures\ui\hit_number.pak.JP" hit_number.pak
-		if errorlevel 1 goto erroSD3
+		if errorlevel 1 goto errorSD
 	) else (
 		xcopy "%~dp0ui\hit_number.pak" "%AIONDIR%\L10N\enu\textures\ui\"
-		if errorlevel 1 goto erroSD2
+		if errorlevel 1 goto errorSD
 	)
 	echo "-------------- JP crit/block/parry fonts INSTALLED. --------------"
 	endlocal
@@ -32,19 +32,7 @@ if exist "%AIONDIR%\L10N\enu\textures\ui\hit_number.pak" (
 	exit
 )
 
-:erroSD3
-echo "-------------- ERROR 'CF3': Files are being used. Close the client or restart your computer and try again. --------------"
-endlocal
-pause
-exit
-
-:erroSD2
-echo "-------------- ERROR 'CF2': Files are being used. Close the client or restart your computer and try again. --------------"
-endlocal
-pause
-exit
-
-:erroSD1
+:errorSD
 echo "-------------- ERROR 'CF1': Fonts file hit_number.pak is being used. Close the client or restart your computer and try again. --------------"
 endlocal
 pause
