@@ -1,6 +1,10 @@
 # BATCH files made by LoadRNG.
 > TESTED ON WINTOWS 10 20H2 for Aion Classic NA.
 
+Download and extract the files anywere on your computer. Teh scripts will detect your isntall directory automatically. It doesn't need to be in the game directory. Then follow the instructions below.
+
+> ALTERNATIVELY you can do the proccess manually by copying and pasting the "l10n" folder onto your game directory. Doing that it will activate the chat filter and the Japanese fonts. To use the Korean Combat voices, go to AION_CLASSIC\L10N\ENU\Sounds\ and rename the "voice" folder to "voiceNA". Done!
+
 ## AION CHAT FILTER:
 __INSTALL:__
 1. Run "Aion Classic Chat Filter.bat" as ADMIN;
