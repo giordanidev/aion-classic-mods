@@ -14,7 +14,7 @@ ECHO Aion directory found: %AIONDIR%
 if exist "%AIONDIR%\L10N\enu\textures\ui\hit_number.pak" (
 	ren "%AIONDIR%\L10N\enu\textures\ui\hit_number.pak" hit_number.pak.JP
 	if errorlevel 1 goto errorSD
-	acho "-------------- JP crit/block/parry fonts REMOVED. --------------"
+	echo "-------------- JP crit/block/parry fonts REMOVED. --------------"
 	endlocal
 	pause
 	exit
