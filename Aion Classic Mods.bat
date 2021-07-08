@@ -23,7 +23,7 @@ if exist "%AIONDIR%\L10N\enu\textures\ui\hit_number.pak" (
 		ren "%AIONDIR%\L10N\enu\textures\ui\hit_number.pak.JP" hit_number.pak
 		if errorlevel 1 goto errorSD
 	) else (
-		xcopy "%~dp0ui\hit_number.pak" "%AIONDIR%\L10N\enu\textures\ui\"
+		xcopy "%~dp0L10N\enu\textures\ui\hit_number.pak" "%AIONDIR%\L10N\enu\textures\ui\"
 		if errorlevel 1 goto errorSD
 	)
 	echo "-------------- JP crit/block/parry fonts INSTALLED. --------------"
