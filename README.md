@@ -8,8 +8,9 @@ Download and extract the files anywere on your computer. The scripts will detect
 ## AION CHAT FILTER:
 __INSTALL:__
 1. Run "Aion Classic Chat Filter.bat" as ADMIN;
-2. If no error messages it will copy the filter file to the game directory;
-3. Done.
+2. It will ask if you wish to replace the existing file. Type "y" for YES or "n" for NO;
+3. If no error messages it will copy the filter file to the game directory;
+4. Done.
 
 
 ## JAPANESE CRIT/PARRY/BLOCK FONTS:
