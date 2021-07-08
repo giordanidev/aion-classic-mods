@@ -14,6 +14,10 @@ __INSTALL:__
 
 
 ## JAPANESE CRIT/PARRY/BLOCK FONTS:
+
+https://i.imgur.com/QYhucVk.png
+https://i.imgur.com/geFLNsI.png
+
 __INSTALL:__
 1. Run "Aion Classic JP Fonts.bat" as ADMIN;
 2. You should receive a message informing that the JP fonts have been installed (this process will copy the "hit_number.pak" file on this repository to the game directory);
