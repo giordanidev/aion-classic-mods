@@ -14,14 +14,14 @@ ECHO Aion directory found: %AIONDIR%
 if exist "%AIONDIR%\L10N\enu\Sounds\voice" (
 	ren "%AIONDIR%\L10N\enu\Sounds\voice" voiceNA
 	if errorlevel 1 goto errorSD
-	acho "-------------- NA COMBAT voices REMOVED. The client will now load the original KR COMBAT voices. --------------"
+	echo "-------------- NA COMBAT voices REMOVED. The client will now load the original KR COMBAT voices. --------------"
 	endlocal
 	pause
 	exit
 ) else (
 	ren "%AIONDIR%\L10N\enu\Sounds\voiceNA" voice
 	if errorlevel 1 goto errorSD
-	eacho "-------------- NA COMBAT voices RESTORED. The client will now load the NA COMBAT voices. --------------"
+	echo "-------------- NA COMBAT voices RESTORED. The client will now load the NA COMBAT voices. --------------"
 	endlocal
 	pause
 	exit
