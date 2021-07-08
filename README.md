@@ -25,7 +25,7 @@ __INSTALL ORIGINAL KOREAN COMBAT VOICES:__
 - This proccess DOES NOT affect cutscene or NPC voices, only combat voices. What it does is it renames the NA "voice" folder making the client load the original Korean voice folder.
 
 1. Run "Aion Classic KR Combat Voices.bat" as ADMIN;
-2. You should receive a message informing that the voice folder have been renamed;
+2. You should receive a message informing that the voice folder has been renamed;
 3. Done.
 
 __RESTORE NA COMBAT VOICES:__
