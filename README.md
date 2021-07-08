@@ -4,10 +4,9 @@ TESTED ON WINTOWS 10 20H2 for Aion Classic NA.
 
 ## INSTALL AION CHAT FILTER:
 1. Run "Aion Classic Chat Filter.bat" as ADMIN;
-2. If no error messages, on the first time it will copy the fonts and filter files to the correct directory, and rename the "voice" folder to "voiceNA";
--- Renaming the folder inside L10N\Sounds will make the client load the original KR combat voices (cutscene voices are not affected), which are a LOT less screamy.
-3. You should receive a message informing that the JP fonts have been activated;
-4. Done.
+2. If no error messages it will copy the filter file to the game directory;
+3. Done.
+
 
 ## INSTALL JAPANESE CRIT/PARRY/BLOCK FONTS:
 
@@ -19,6 +18,7 @@ TESTED ON WINTOWS 10 20H2 for Aion Classic NA.
 1. Run "Aion Classic JP Fonts.bat" as ADMIN (yes, same file);
 2. You should receive a message informing that the NA fonts have been restored (this process will NOT delete the Japanese fonts but it will rename the JP fonts file as "hit_number.pak.JP");
 3. Done.
+
 
 ## USE ORIGINAL KOREAN CMOBAT VOICES:
 
