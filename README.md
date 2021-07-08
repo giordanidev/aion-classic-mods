@@ -14,9 +14,10 @@ __INSTALL:__
 
 
 ## JAPANESE CRIT/PARRY/BLOCK FONTS:
+![Preview](https://i.imgur.com/QYhucVk.png)
+![Preview](https://i.imgur.com/geFLNsI.png)
 
-https://i.imgur.com/QYhucVk.png
-https://i.imgur.com/geFLNsI.png
+> Block, Evade and Resist are the same as Parry.
 
 __INSTALL:__
 1. Run "Aion Classic JP Fonts.bat" as ADMIN;
