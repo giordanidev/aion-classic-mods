@@ -11,7 +11,7 @@ FOR /F "tokens=2*" %%A IN ('REG QUERY "%KEY_NAME%" /v %VALUE_NAME% 2^>nul') DO (
 
 ECHO Aion directory found: %AIONDIR%
 
-xcopy "%~dp0L10N\enu\Data\Strings\aionfilterline.dat" "%AIONDIR%\L10N\enu\Data\Strings\"
+xcopy /Y "%~dp0L10N\enu\Data\Strings\aionfilterline.dat" "%AIONDIR%\L10N\enu\Data\Strings\"
 if errorlevel 1 goto errorSD
 echo "-------------- Aion Chat Filter Updated --------------"
 endlocal
