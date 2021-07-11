@@ -19,7 +19,8 @@ __INSTALL:__
 ![Parry/Block Preview](https://i.imgur.com/geFLNsI.png)
 ![Dodge/Blind Preview](https://i.imgur.com/HQc4W7p.png)
 
-> Block, Evade and Resist are the same as Parry.
+> Block is the same as Parry.
+> Resist is the same as Dodge.
 
 __INSTALL:__
 1. Run "Aion Classic JP Fonts.bat" as ADMIN;
