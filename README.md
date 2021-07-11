@@ -15,8 +15,9 @@ __INSTALL:__
 
 
 ## JAPANESE CRIT/PARRY/BLOCK FONTS:
-![Preview](https://i.imgur.com/QYhucVk.png)
-![Preview](https://i.imgur.com/geFLNsI.png)
+![Crit Preview](https://i.imgur.com/QYhucVk.png)
+![Parry/Block Preview](https://i.imgur.com/geFLNsI.png)
+![Dodge/Blind Preview](https://i.imgur.com/HQc4W7p.png)
 
 > Block, Evade and Resist are the same as Parry.
 
