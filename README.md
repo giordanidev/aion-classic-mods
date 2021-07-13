@@ -1,7 +1,7 @@
 # BATCH files made by LoadRNG.
 Watch me being a badiator on YouTube at [aiononline.com.br](http://aiononline.com.br) (PT-BR/EN).
 
-> TESTED ON WINTOWS 10 20H2 for Aion Classic NA.
+> TESTED ON WINDOWS 10 20H2 for Aion Classic NA.
 
 Download and extract the files anywere on your computer. It doesn't need to be in the game directory. The scripts will detect your install directory automatically. Then follow the instructions below.
 
