@@ -9,6 +9,9 @@ Download and extract the files anywere on your computer. It doesn't need to be i
 
 ## AION CHAT FILTER:
 __INSTALL:__
+
+- Install this file everytime there is a update. The launcher will always replace the file even if it's set to read only.
+
 1. Run "Aion Classic Chat Filter.bat" as ADMIN;
 2. If no error messages it will copy the filter file to the game directory;
 3. Done.
