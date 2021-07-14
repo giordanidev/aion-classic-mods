@@ -8,6 +8,7 @@ Download and extract the files anywere on your computer. It doesn't need to be i
 > ALTERNATIVELY you can do the proccess manually by copying and pasting the "l10n" folder onto your game directory. Doing that it will activate the chat filter and the Japanese fonts. To use the Korean Combat voices, go to AION_CLASSIC\L10N\ENU\Sounds\ and rename the "voice" folder to "voiceNA". Done!
 
 ## AION CHAT FILTER:
+## APPARENTLY THE CHAT FILTER IS BROKEN. NOT WORKING ATM... =(
 __INSTALL:__
 
 - Install this file everytime there is a update. The launcher will always replace the file even if it's set to read only.
