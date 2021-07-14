@@ -39,7 +39,7 @@ if exist %filterFile% (
 )
 
 :errorSD
-echo [%date% %time:~0,-3%] --------------- ERROR 'CF1': Filter file aionfilterline.dat is being used or it is set to read only. Close the client or restart your computer and try again.
+echo [%date% %time:~0,-3%] --------------- ERROR 'CF1': Filter file aionfilterline.dat is being used. Go to the chadacter selection screen or close the game client. If the error persists, restart your computer and try again.
 endlocal
 pause
 exit
