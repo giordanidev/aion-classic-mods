@@ -14,7 +14,7 @@ __INSTALL:__
 3. Done.
 
 
-## JAPANESE CRIT/PARRY/BLOCK FONTS:
+## JAPANESE CRIT/PARRY/BLOCK/DODGE/RESIST FONTS:
 ![Crit Preview](https://i.imgur.com/QYhucVk.png)
 ![Parry/Block Preview](https://i.imgur.com/geFLNsI.png)
 ![Dodge/Blind Preview](https://i.imgur.com/HQc4W7p.png)
@@ -42,6 +42,8 @@ __INSTALL ORIGINAL KOREAN COMBAT VOICES:__
 3. Done.
 
 __RESTORE NA COMBAT VOICES:__
+- remember to run the .bat file before any maintenance, or else the launcher will redownload the voice folder (50mb~).
+
 1. Run "Aion Classic KR Combat Voices.bat" as ADMIN (yes, same file);
 2. You should receive a message informing that the NA voice folder has been restored;
 3. Done.
