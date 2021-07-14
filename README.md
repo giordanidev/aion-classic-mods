@@ -42,7 +42,7 @@ __INSTALL ORIGINAL KOREAN COMBAT VOICES:__
 3. Done.
 
 __RESTORE NA COMBAT VOICES:__
-- remember to run the .bat file before any maintenance, or else the launcher will redownload the voice folder (50mb~).
+- Remember to run the .bat file before any maintenance, or else the launcher will redownload the voice folder (50mb~).
 
 1. Run "Aion Classic KR Combat Voices.bat" as ADMIN (yes, same file);
 2. You should receive a message informing that the NA voice folder has been restored;
