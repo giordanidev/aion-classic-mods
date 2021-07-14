@@ -12,12 +12,21 @@ FOR /F "tokens=2*" %%A IN ('REG QUERY "%KEY_NAME%" /v %VALUE_NAME% 2^>nul') DO (
 ECHO Aion directory found: %AIONDIR%
 
 if exist "%AIONDIR%\L10N\enu\Sounds\voice" (
-	ren "%AIONDIR%\L10N\enu\Sounds\voice" voiceNA
-	if errorlevel 1 goto errorSD
-	echo "-------------- NA COMBAT voices REMOVED. The client will now load the original KR COMBAT voices. --------------"
-	endlocal
-	pause
-	exit
+	if exist "%AIONDIR%\L10N\enu\Sounds\voiceNA" (
+		rmdir /S /Q "%AIONDIR%\L10N\enu\Sounds\voice"
+		if errorlevel 1 goto errorSD
+		echo "-------------- NA COMBAT voices REMOVED. The client will now load the original KR COMBAT voices. --------------"
+		endlocal
+		pause
+		exit
+	) else (
+		ren "%AIONDIR%\L10N\enu\Sounds\voice" voiceNA
+		if errorlevel 1 goto errorSD
+		echo "-------------- NA COMBAT voices REMOVED. The client will now load the original KR COMBAT voices. --------------"
+		endlocal
+		pause
+		exit
+	)
 ) else (
 	ren "%AIONDIR%\L10N\enu\Sounds\voiceNA" voice
 	if errorlevel 1 goto errorSD
