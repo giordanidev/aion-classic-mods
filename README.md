@@ -12,7 +12,7 @@ __INSTALL:__
 
 - Install this file everytime there is a update. The launcher will always replace the file even if it's set to read only.
 
-1. Go to character selection screen if the game is open. If it's not open, skip to step 2;
+1. Close the game;
 2. Run "Aion Classic Chat Filter.bat" as ADMIN;
 3. If no error messages it will copy the filter file to the game directory;
 4. Done.
