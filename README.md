@@ -1,5 +1,5 @@
 # BATCH files made by LoadRNG.
-Watch me being a badiator on YouTube at [aiononline.com.br](http://aiononline.com.br) (PT-BR/EN).
+Watch me on YouTube at [aiononline.com.br](http://aiononline.com.br) (PT-BR/EN).
 
 > TESTED ON WINDOWS 10 20H2 for Aion Classic NA.
 
