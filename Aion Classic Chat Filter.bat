@@ -11,11 +11,11 @@ FOR /F "tokens=2*" %%A IN ('REG QUERY "%KEY_NAME%" /v %VALUE_NAME% 2^>nul') DO (
 
 ECHO [%date% %time:~0,-3%] Aion directory found: %AIONDIR%
 
-set oldFile="%AIONDIR%L10N\enu\Data\Strings\aionfilterline.dat"
-set filterFile="%AIONDIR%L10N\enu\Data\Strings\aionfilterline.pak"
+set oldFile=%AIONDIR%L10N\enu\Data\Strings\aionfilterline.dat
+set filterFile=%AIONDIR%L10N\enu\Data\Strings\aionfilterline.pak
 
 if exist "%oldFile%" (
-	del "%oldFile%"
+	del '%oldFile%'
 	echo [%date% %time:~0,-3%] -------------------------------------------------------------
 	echo [%date% %time:~0,-3%] aionfilterline.dat file located and removed "(old format)".
 	echo [%date% %time:~0,-3%] -------------------------------------------------------------
@@ -26,19 +26,19 @@ if exist "%filterFile%" (
 	echo [%date% %time:~0,-3%] "%filterFile%"
 	echo [%date% %time:~0,-3%] -------------------------------------------------------------
 	
-	powershell attrib -r "%filterFile%"
+	powershell attrib -r '%filterFile%'
 	xcopy /Y "%~dp0L10N\enu\Data\Strings\aionfilterline.pak" "%AIONDIR%\L10N\enu\Data\Strings\"
 	if errorlevel 1 goto errorSD
-	powershell attrib +r "%filterFile%"
+	powershell attrib +r '%filterFile%'
 	
 	echo [%date% %time:~0,-3%] --------------- Aion Chat Filter Updated and set to read only.
 	endlocal
 	pause
 	exit
 ) else (
-	xcopy /Y "%~dp0L10N\enu\Data\Strings\aionfilterline.pak" "%AIONDIR%\L10N\enu\Data\Strings\"
+	xcopy /Y "%~dp0L10N\enu\Data\Strings\aionfilterline.pak" "%AIONDIR%\L10N\enu\Data\Strings"
 	if errorlevel 1 goto errorSD
-	powershell attrib +r "%filterFile%"
+	powershell attrib +r '%filterFile%'
 
 	echo [%date% %time:~0,-3%] --------------- Aion Chat Filter Updated and set to read only.
 	endlocal
