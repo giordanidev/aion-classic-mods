@@ -1,4 +1,4 @@
-# BATCH files made by LoadRNG.
+# BATCH files made by KonkersGG.
 Watch me on YouTube at [aiononline.com.br](http://aiononline.com.br) (PT-BR/EN).
 
 > TESTED ON WINDOWS 10 20H2-21H1 for Aion Classic NA.
