@@ -66,9 +66,9 @@ if %errorLevel% == 0 (
 	echo [%date% %time:~0,-3%] -------------------------------------------------------------
 ) else (
 	color 47
-	echo [%date% %time:~0,-3%] Failure: Current permissions inadequate.
+	echo [%date% %time:~0,-3%] Failure: Current permissions inadequate. Run scritp 
 	echo [%date% %time:~0,-3%] -------------------------------------------------------------
-	echo [%date% %time:~0,-3%] Run scritp as administrator: Right Click > Run as Admin
+	echo [%date% %time:~0,-3%] as administrator: Right Click - Run as Admin
 	echo [%date% %time:~0,-3%] -------------------------------------------------------------
 	echo [%date% %time:~0,-3%] Exiting script.
 	echo [%date% %time:~0,-3%] -------------------------------------------------------------
