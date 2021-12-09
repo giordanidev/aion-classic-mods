@@ -47,22 +47,22 @@ pause
 exit
 
 :check_Permissions
-echo [%date% %time:~0,-3%] ----------------------------------------------------
+echo [%date% %time:~0,-3%] -------------------------------------------------------------
 echo [%date% %time:~0,-3%] Administrative permissions required. Detecting permissions...
-echo [%date% %time:~0,-3%] ----------------------------------------------------
+echo [%date% %time:~0,-3%] -------------------------------------------------------------
 
 net session >nul 2>&1
 if %errorLevel% == 0 (
 	echo [%date% %time:~0,-3%] Success: Administrative permissions confirmed.
-	echo [%date% %time:~0,-3%] ----------------------------------------------------
+	echo [%date% %time:~0,-3%] -------------------------------------------------------------
 ) else (
 	color 47
-	echo [%date% %time:~0,-3%] Failure: Current permissions inadequate.
-	echo [%date% %time:~0,-3%] ----------------------------------------------------
-	echo [%date% %time:~0,-3%] Run scritp as administrator: Right Click > Run as Admin
-	echo [%date% %time:~0,-3%] ----------------------------------------------------
+	echo [%date% %time:~0,-3%] Failure: Current permissions inadequate. Run scritp 
+	echo [%date% %time:~0,-3%] -------------------------------------------------------------
+	echo [%date% %time:~0,-3%] as administrator: Right Click - Run as Admin
+	echo [%date% %time:~0,-3%] -------------------------------------------------------------
 	echo [%date% %time:~0,-3%] Exiting script.
-	echo [%date% %time:~0,-3%] ----------------------------------------------------
+	echo [%date% %time:~0,-3%] -------------------------------------------------------------
 	pause
 	exit
 )
