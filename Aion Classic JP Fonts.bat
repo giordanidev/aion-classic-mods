@@ -16,6 +16,7 @@ if exist "%AIONDIR%\L10N\enu\textures\ui\hit_number.pak" (
 	if errorlevel 1 goto errorSD
 	echo "-------------- JP crit/block/parry fonts REMOVED. --------------"
 	endlocal
+	color 47
 	pause
 	exit
 ) else (
@@ -28,11 +29,13 @@ if exist "%AIONDIR%\L10N\enu\textures\ui\hit_number.pak" (
 	)
 	echo "-------------- JP crit/block/parry fonts INSTALLED. --------------"
 	endlocal
+	color A0
 	pause
 	exit
 )
 
 :errorSD
+color 47
 echo "-------------- ERROR 'CF1': Fonts file hit_number.pak is being used. Close the client or restart your computer and try again. --------------"
 endlocal
 pause
@@ -48,6 +51,7 @@ if %errorLevel% == 0 (
 	echo [%date% %time:~0,-3%] Success: Administrative permissions confirmed.
 	echo [%date% %time:~0,-3%] ----------------------------------------------------
 ) else (
+	color 47
 	echo [%date% %time:~0,-3%] Failure: Current permissions inadequate.
 	echo [%date% %time:~0,-3%] ----------------------------------------------------
 	echo [%date% %time:~0,-3%] Run scritp as administrator: Right Click > Run as Admin
