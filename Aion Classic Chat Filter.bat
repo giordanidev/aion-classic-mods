@@ -33,6 +33,7 @@ if exist "%filterFile%" (
 	
 	echo [%date% %time:~0,-3%] --------------- Aion Chat Filter Updated and set to read only.
 	endlocal
+	color A0
 	pause
 	exit
 ) else (
@@ -42,11 +43,13 @@ if exist "%filterFile%" (
 
 	echo [%date% %time:~0,-3%] --------------- Aion Chat Filter Updated and set to read only.
 	endlocal
+	color A0
 	pause
 	exit
 )
 
 :errorSD
+color 47
 echo [%date% %time:~0,-3%] --------------- ERROR 'CF1': Filter file aionfilterline.dat is being used. Go to the chadacter selection screen or close the game client. If the error persists, restart your computer and try again.
 endlocal
 pause
@@ -62,6 +65,7 @@ if %errorLevel% == 0 (
 	echo [%date% %time:~0,-3%] Success: Administrative permissions confirmed.
 	echo [%date% %time:~0,-3%] -------------------------------------------------------------
 ) else (
+	color 47
 	echo [%date% %time:~0,-3%] Failure: Current permissions inadequate.
 	echo [%date% %time:~0,-3%] -------------------------------------------------------------
 	echo [%date% %time:~0,-3%] Run scritp as administrator: Right Click > Run as Admin
