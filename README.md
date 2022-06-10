@@ -1,4 +1,4 @@
-# BATCH files made by Load, Siel Elyos.
+# BATCH files made by Load, Siel Elyos / Bandog Siel Asmo.
 Watch me on YouTube at [aiononline.com.br](http://aiononline.com.br) (PT-BR/EN).
 
 > TESTED ON WINDOWS 10 20H2-21H1 for Aion Classic NA.
