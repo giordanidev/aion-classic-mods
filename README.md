@@ -1,5 +1,5 @@
-# BATCH files made by LoadRNG.
-Watch me on YouTube at [aiononline.com.br](http://aiononline.com.br) (PT-BR/EN) - If I ever start posting something there.
+# BATCH files made by LoadRPG.
+Watch me on YouTube at [@LoadRPG](https://youtube.com/@LoadRPG) (PT-BR/EN) - If I ever start posting something there.
 
 > TESTED ON WINDOWS 10 20H2-21H1 for Aion Classic NA.
 
