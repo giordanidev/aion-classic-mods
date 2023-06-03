@@ -1,6 +1,9 @@
 # BATCH files made by LoadRPG.
 Watch me on YouTube at [@LoadRPG](https://youtube.com/@LoadRPG) (PT-BR/EN) - If I ever start posting something there.
 
+## Those scripts only work for CLASSIC NA and are no longer going to be maintained.
+## Check my new app here: https://github.com/giordanidev/aion-classic-mods-py/releases/tag/v1.0.0
+
 > TESTED ON WINDOWS 10 20H2-21H1 for Aion Classic NA.
 
 Download and extract the files anywere on your computer. It doesn't need to be in the game directory. The scripts will detect your install directory automatically. Then follow the instructions below.
